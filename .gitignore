@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.tgz
+.DS_Store
+coverage/
+output/
+reports/

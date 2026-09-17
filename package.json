@@ -1,0 +1,44 @@
+{
+  "name": "@rebodyhealth/cli",
+  "version": "0.1.0",
+  "description": "Upload your DNA files and bloodwork to Rebody from a local agent.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "rebody": "bin/rebody.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "@napi-rs/keyring": "2.1.0"
+  },
+  "homepage": "https://github.com/compound-technologies/rebody-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compound-technologies/rebody-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/compound-technologies/rebody-cli/issues"
+  },
+  "keywords": [
+    "rebody",
+    "cli",
+    "agent",
+    "bloodwork",
+    "dna"
+  ]
+}
