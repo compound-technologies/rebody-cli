@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "rebody-import-token"
+description = "Rebody agent import bearer credential"
+regex = '''\brbi_[A-Za-z0-9_-]{43}\b'''
+keywords = ["rbi_"]
