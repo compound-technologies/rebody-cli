@@ -24,7 +24,7 @@
     "prepublishOnly": "npm test"
   },
   "dependencies": {
-    "@napi-rs/keyring": "2.1.0"
+    "@napi-rs/keyring": "2.1.1"
   },
   "homepage": "https://github.com/compound-technologies/rebody-cli#readme",
   "repository": {
